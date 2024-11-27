@@ -1,0 +1,10 @@
+[package]
+name = "raff-beatz"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/HttpRafa/raff-beatz"
+license = "GPL-3.0"
+
+[dependencies]
+yew = { version="0.21.0", features=["csr"] }
+yew-router = "0.18.0"

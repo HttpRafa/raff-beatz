@@ -1,0 +1,25 @@
+{
+    "name": "Development Container",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                // Extensions for Rust development
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "usernamehw.errorlens",
+                "tamasfe.even-better-toml",
+                "TechTheAwesome.rust-yew",
+
+                // Extensions for general development
+                "fill-labs.dependi",
+                "ms-vscode.makefile-tools",
+                "ms-azuretools.vscode-docker",
+                "github.vscode-github-actions"
+            ]
+        }
+    }
+}
